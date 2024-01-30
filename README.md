@@ -4,6 +4,7 @@ This Python script allows you to convert text from a PDF file into speech throug
 
 Requirments:
 Make sure you have Python installed on your system. If not, download and install it from Python's official website.
+
 Install the required Python libraries using the pip command:
 
     pip install pyttsx3 PyPDF2
