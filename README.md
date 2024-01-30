@@ -9,6 +9,5 @@ Install the required Python libraries using the pip command:
     pip install pyttsx3 PyPDF2
 
 Notes:
-
 The script uses the default media player on your system to play the synthesized speech.
 Ensure that your PDF files contain text that can be extracted. Scanned documents or images with text cannot be processed by this script.
