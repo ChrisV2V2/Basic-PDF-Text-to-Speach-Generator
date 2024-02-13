@@ -24,7 +24,7 @@ with open(fileName, 'rb') as file:
         page = pdfReader.pages[page_num]
         text = page.extract_text()
 
-        # Initialize pyttsx3 engine to convert text to speech
+        # Initialise pyttsx3 engine to convert text to speech
         player = pyttsx3.init()
         player.say(text)
         player.runAndWait()
